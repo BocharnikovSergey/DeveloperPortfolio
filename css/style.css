@@ -39,6 +39,10 @@ body {
     margin-top: 74px;
 }
 
+.header-photo {
+    width: 212px;
+}
+
 .header-text {
     margin-left: 27px;
 }
@@ -78,9 +82,6 @@ body {
     margin-right: 8px;
 }
 
-.social-link {
-}
-
 .cv-download {
     display: flex;
     align-items: center;
@@ -96,4 +97,91 @@ body {
 
 .cv-text {
     margin-left: 4px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #BF7506;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.card-text-wrapper {
+    padding: 16px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #BF7506;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: 8px;
+
+}
+
+.tags-item {
+    
+    text-decoration: none;
+    border: 1px solid #DD9C3C;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.tag {
+    text-decoration: none;
+    color: #211B12;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    padding: 4px 8px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 17px;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #BF7506;
+    margin-right: 25px;
+    text-decoration: none;
+    padding: 7px 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+
+.card-button-text {
+    color: #211B12;
 }
