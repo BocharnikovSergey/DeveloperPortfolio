@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Бочарников Сергей</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  <div class="navbar">
+  <div class="navbar container">
     <img src="./images/logo.svg" alt="logo">
     <nav class="navigation">
       <ul class="nav-list">
@@ -21,6 +26,44 @@
       </ul>
     </nav>
   </div>
-  
+  <!-- ./navbar  -->
+  <header class="header container">
+    <img src="./images/avatar.png" alt="Сергей" class="header-photo">
+    <div class="header-text">
+      <strong class="header-strong">Привет 👋</strong>
+      <h1 class="header-heading">
+        <span class="header-primary">Я Бэкэнд-разработчик </span> <br>
+        Меня зовут Бочарников Сергей <br>
+        и я делаю сайты для людей и компаний
+      </h1>
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="sotial-item">
+            <a href= "" class="social-link"><img src="./images/icon/linkedin.svg" alt="linkedin" class="social-logo"></a>
+          </li>
+          <li class="sotial-item">
+            <a href="" class="social-link"><img src="./images/icon/twitter.svg" alt="twitter" class="social-logo"></a>
+          </li>
+          <li class="sotial-item">
+            <a href="" class="social-link"><img src="./images/icon/github.svg" alt="github" class="social-logo"></a>
+          </li>
+          <li class="sotial-item">
+            <a href="" class="social-link"><img src="./images/icon/stakeoverflow.svg" alt="stakeoverflow" class="social-logo"></a>
+          </li>
+          <li class="sotial-item">
+            <a href="" class="social-link"><img src="./images/icon/youtube.svg" alt="youtube" class="social-logo"></a>
+          </li>
+        </ul>
+        <a href="#" class="cv-download" download="">
+          <img src="./images/icon/download.svg" alt="download" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
+      <!-- /.header-links -->
+    </div>
+    <!-- /.header-text -->
+  </header>
+  <!-- /.header -->
 </body>
+
 </html>
